@@ -6,7 +6,7 @@ This project provides custom polyfills for various JavaScript array and string m
 
 ## Features
 
-- Implements polyfills for array methods: `myPush`, `myPop`, `myUnshift`, `myShift`, `myReverse`, `mySlice`, `myFind`, `myEvery`, `mySome`, `myFlat`, `myMap`, `myFilter`, `myReduce`, and `mySort`.
+- Implements polyfills for array methods: `myPush`, `myPop`, `myUnshift`, `myShift`, `myReverse`, `mySlice`, `myFind`, `myEvery`, `mySome`, `myFlat`, `myMap`, `myFilter`, `myReduce`, `mySort`, `myCall`, `myApply`, `myBind`.
 - Includes a string method: `myStringConcat`.
 - Console examples demonstrate usage.
 

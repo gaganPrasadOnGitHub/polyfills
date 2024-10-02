@@ -99,3 +99,29 @@ const myConcatString = 'Hello';
 console.log('String:', myConcatString);
 const concatenatedString = myConcatString.myStringConcat(' ', 'World', 123);
 console.log('String my concat:', concatenatedString);
+
+// call
+function greet(FirstName, LastName) {
+  console.log(`Hello ${FirstName} ${LastName}`);
+}
+
+const person1 = {
+  FirstName: 'Person 1',
+};
+
+greet.myCall(person1, person1.FirstName, 'Call');
+
+// apply
+const person2 = {
+  FirstName: 'Person 2',
+};
+greet.myApply(person2, [person2.FirstName, 'Apply']);
+
+// bind
+const person3 = {
+  FirstName: 'Person 3',
+};
+const greetMessage = greet.myBind(person2, person3.FirstName);
+
+console.log('greetMessage function from bind', greetMessage);
+greetMessage('Bind');
